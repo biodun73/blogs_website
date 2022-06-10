@@ -1,0 +1,197 @@
+/**/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*heading*/
+.heading{
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+}
+.heading h1{
+    color: #093A52;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+/*navigation tabs*/
+nav{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    background-color: #FBF8EF;
+}
+nav a{
+    color: #0D435A;
+    margin-top: 5px;
+    margin-left: 30px;
+    text-decoration: none;
+}
+nav form{
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.aside-left{
+    width: 23.5%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    background-color: #FBF8EF;
+}
+.aside-left p,h1{
+    margin: 10px;
+    text-align: justify;
+}
+.article{
+    width: 44.5%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    background-color: #FBF8EF;
+}
+.article a{
+    text-decoration: none;
+}
+.article img{
+    max-width: 100%;
+}
+.article h2{
+    margin-top: 25px;
+}
+.article button{
+    border-radius: 5px;
+}
+
+/*article1*/
+.article1{
+   margin: 5px;
+   border-bottom: 10px;
+   background-color: #F5F6CE;
+}
+.text-one{
+   margin: 5px;
+   padding: 5px;
+   border-bottom: 10px;
+   text-align: justify;
+}
+/*article2*/
+.article2{
+   margin: 5px;
+   border-bottom: 10px;
+   background-color: #F5F6CE;
+}
+/*article3*/
+.article3{
+   margin: 5px;
+   border-bottom: 10px;
+   background-color: #F5F6CE;
+}
+.aside-right{
+    width: 30%;
+    float: left;
+    margin: 3px;
+    padding: 5px;
+    background-color:#FBF8EF;
+}
+.aside-right p,h1{
+    margin: 10px;
+    margin-top: 25px;
+    text-align: justify;
+}
+.footer{
+    clear: both;
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+}
+.footer p{
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.addres{
+   float: left;
+   margin-top: 20px;
+   margin-left: 600px;
+}
+.media a{
+   float: right;
+   margin-top: 20px;
+   margin-right: 50px;
+}
+body{
+    background-color: #FFFFFF;
+}
+/*contact form*/
+.form,h2{
+    margin-left: 50px;
+}
+.contact-left{
+    width: 47%;
+    float: left;
+    margin: 5px;
+}
+.contact-right{
+    width: 50%;
+    float: right;
+    margin: 5px;
+}
+.contact-right img{
+    max-width: 100%;
+    
+}
+
+@media screen and (max-width:768px){
+    .article{
+        float: none;
+        width: auto;
+    }
+    .article h1{
+        font-size: 25px;
+        margin: 5px;
+    }
+    .aside-left{
+        float: none;
+        width: auto;
+    }
+    .aside-left iframe{
+        
+    }
+    .aside-right{
+        float: none;
+        width: auto;
+    }
+    .aside-right img{
+        width: 100%;
+        margin: 5px;
+    }
+    .section{
+       width: 430px;
+       padding: 10px;
+    }
+    .addres{
+        float: none;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .footer p{
+        margin-left: 20px;
+    }
+    .media a{
+        float: none;
+        margin-left: 25px;
+    }
+    .contact-left{
+        float: none;
+    }
+    .form{
+        margin-left: 20px;
+    }
+    .contact-right{
+        float: none;
+        width: auto;
+    }
+}
